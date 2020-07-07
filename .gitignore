@@ -1,0 +1,6 @@
+*.sqlite3
+*.log
+env/
+superlists/__pycache__/
+
+
