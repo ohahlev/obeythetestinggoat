@@ -2,5 +2,6 @@
 *.log
 env/
 superlists/__pycache__/
+.vim/
 
 
