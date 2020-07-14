@@ -4,5 +4,6 @@
 env/
 .vim/
 superlists/__pycache__/
+.vim/
 
 

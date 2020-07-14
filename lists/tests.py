@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.urls import resolve
 from django.test import TestCase
 from lists.views import home_page  
@@ -16,3 +17,12 @@ class HomePageTest(TestCase):
         self.assertTrue(html.startswith('<html>'))  
         self.assertIn('<title>To-Do Lists</title>', html)  
         self.assertTrue(html.endswith('</html>'))
+=======
+from django.test import TestCase
+
+# Create your tests here.
+class SmokeTest(TestCase):
+
+    def test_bad_maths(self):
+        self.assertEqual(1 + 1, 3)
+>>>>>>> 655a9041de80d6100e088e83e4540eba1e144575
