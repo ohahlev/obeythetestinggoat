@@ -1,6 +1,8 @@
 *.sqlite3
 *.log
+*.pyc
 env/
+.vim/
 superlists/__pycache__/
 
 
